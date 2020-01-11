@@ -1,0 +1,13 @@
+{
+	"pods": {
+		"AWSS3": {
+			"type": "pod",
+			"id": "AWSS3"
+		}
+	},
+	"sources": {
+		"https://github.com/CocoaPods/Specs.git": true
+	},
+	"iosMinVersion": "11.0",
+	"useFrameworks": true
+}

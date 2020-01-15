@@ -18,17 +18,19 @@
   "dependencies": {
     "cordova-ios": "^5.0.1",
     "cordova-plugin-cocoapod-support": "^1.6.2",
-    "cordova-plugin-video-upload": "git+https://github.com/stardevrk/cordova-plugin-video-upload-aws.git"
+    "cordova-plugin-video-upload": "git+https://github.com/stardevrk/cordova-plugin-video-upload-aws.git",
+    "ionic-plugin-keyboard": "git+https://github.com/driftyco/ionic-plugins-keyboard.git"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-video-upload": {},
       "cordova-plugin-whitelist": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-video-upload": {}
     },
     "platforms": [
       "ios"

@@ -17,7 +17,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/stardevrk/cordova-plugin-video-upload-aws.git#a528fe441395a52a4621826b0c2ff1aad1012e65",
+  "_resolved": "git+https://github.com/stardevrk/cordova-plugin-video-upload-aws.git#346c3b5ebc6c03fbd563512509d7e84f2774fb9f",
   "_spec": "https://github.com/stardevrk/cordova-plugin-video-upload-aws",
   "_where": "/Volumes/Work/VideoUploadPlugin/PluginTest-3/PluginTest-3/PluginTest",
   "author": {

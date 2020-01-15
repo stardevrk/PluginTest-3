@@ -1,12 +1,4 @@
 {
-  "cordova-plugin-video-upload": {
-    "source": {
-      "type": "registry",
-      "id": "https://github.com/stardevrk/cordova-plugin-video-upload-aws"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-cocoapod-support": {
     "source": {
       "type": "registry",
@@ -59,6 +51,22 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-ionic-keyboard@^2.0.5"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "ionic-plugin-keyboard": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/driftyco/ionic-plugins-keyboard"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-video-upload": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/stardevrk/cordova-plugin-video-upload-aws"
     },
     "is_top_level": true,
     "variables": {}

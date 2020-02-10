@@ -2,7 +2,6 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
 .controller('DashCtrl', function($scope, $ionicPopup) {
   $scope.showBrowser= function() {
-    console.log("window.videoUpload = ", window.VideoUpload);
     window.VideoUpload.init(
       {
         poolID: 'us-east-1:68d37f98-98e6-4c06-85f6-2c31fcd38608',

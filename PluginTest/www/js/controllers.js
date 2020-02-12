@@ -8,11 +8,14 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
         region: 'us-east-1',
         bucket: 'birdiefire-cv',
         folder: 'testLocation/',
+        cameraWidth: 150,
+        cameraHeight: 250
       }
     );
     window.VideoUpload.startUpload(
       function(res) { // Upload Success
           console.log("File Path = ", res.Location);
+          console.log("Recording Flag == ", res.Recording);
           var alertPopup = $ionicPopup.alert({
             title: 'Upload Success',
             template: res.Location,

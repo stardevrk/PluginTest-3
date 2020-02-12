@@ -8,6 +8,8 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
         region: 'us-east-1',
         bucket: 'birdiefire-cv',
         folder: 'testLocation/',
+        cameraWidth: 150,
+        cameraHeight: 250
       }
     );
     window.VideoUpload.startUpload(

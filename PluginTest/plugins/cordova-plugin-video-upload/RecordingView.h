@@ -33,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
     @property int timeMin;
     @property int timeSec;
     @property (nonatomic) AVCaptureSession *captureSession;
+    @property (nonatomic) AVCaptureDevice *backCamera;
     @property (nonatomic) AVCapturePhotoOutput *stillImageOutput;
     @property (nonatomic) AVCaptureVideoPreviewLayer *videoPreviewLayer;
     @property (nonatomic) AVCaptureMovieFileOutput *movieFileOutput;
@@ -48,12 +49,14 @@ NS_ASSUME_NONNULL_BEGIN
     - (void)changeOrientation;
     - (void)handlerFrame;
     - (void)cameraSetOutputProperties;
+    - (void)cameraViewSetup;
     - (NSString*)checkDeviceOrientation;
 @end
 
 @protocol RecordingViewDelegate <NSObject>
 
 - (void)videoRecordingView:(RecordingView *)view didFinishRecording:(NSURL *)recordingResult;
+- (void)videoRecordingView:(RecordingView *)view didFinishAddingCaptureSession:(NSError *)error;
 
 @end
 

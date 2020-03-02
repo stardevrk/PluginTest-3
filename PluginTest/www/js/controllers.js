@@ -13,6 +13,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
       }
     );
     window.VideoUpload.startUpload(
+      'standard', // Or 'record' - Plugin Action Type
       function(res) { // Upload Success
           console.log("File Path = ", res.Location);
           console.log("Recording Flag == ", res.Recording);
